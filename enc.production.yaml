@@ -1,0 +1,24 @@
+SECRET_COISA1: ENC[AES256_GCM,data:sfd33TynmP6njA==,iv:gLYRuSQiVBpa5ndoxvl+wzGIH8Po53q4aHNTqHDtDW8=,tag:r8vABMWWjIRsprOS0S/yzA==,type:str]
+TITLE: Teste123
+BASE_URL: https://www.google.com
+SECRET_BANCO_DE_DADOS: ENC[AES256_GCM,data:I85Fe11nrmIyNIc=,iv:VTNTB0DZdpmBx4kNqM+95fa7plqAQ780gqL0CS/OA5Q=,tag:EGuTtvRvCGv9zUd/F9H4+A==,type:str]
+sops:
+    kms: []
+    gcp_kms: []
+    azure_kv: []
+    hc_vault: []
+    age:
+        - recipient: age1d35nqlrcccdfzfzguekprn80p8vxkevvezmxhkrfp3w9vjqrnydsxs55s8
+          enc: |
+            -----BEGIN AGE ENCRYPTED FILE-----
+            YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSAxbnR3eUpLS2N0aGJTMVBI
+            SENOeXYySEJzOWFvMVFzdVl3T0Nud3U0NlRjClhJNzBFUkRIUnZSUGc0K1VxTUF2
+            VTdUd2R5TGZWV0N5YktGanM5dWp2amsKLS0tIHdRMER4eWdoTUV4dU1QK1hTc3dF
+            MnpRZXB6NGpOZjhadkNXbEIxTlNuWVEKxOszdFuOotjKjCJM4dB71Qt9vuSxoo/Q
+            dKdvO14z8B0UZ7faNu428J0IACyLhX2Phi7QvauQ3y51ghL0WHJh4A==
+            -----END AGE ENCRYPTED FILE-----
+    lastmodified: "2023-03-02T17:10:22Z"
+    mac: ENC[AES256_GCM,data:kbwCM6UG7tpSZmRgBpgFCM+edCgLrS1Bjxy5XsZMVV+9nbUAmH8F7x2N5m6XIML0set8TZ3P/PAUroRC7bFTG90uAaA4n7VlgUOiQKkg5ILdRGhUSDEYzuzTVKsUIco9hAV8RJmW7fnCNJr+OuEelY96GnRF2Gt0D/bcl9+9eKc=,iv:bHHWmZcqNaHiGOwOS6f42NJ+UuVkXBhqHnjsgaEv8ss=,tag:q2MisYEhYmfn+IwWmBWrrg==,type:str]
+    pgp: []
+    encrypted_regex: ^(SECRET_.*)$
+    version: 3.7.3
